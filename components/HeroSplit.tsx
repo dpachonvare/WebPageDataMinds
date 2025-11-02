@@ -19,7 +19,7 @@ export default function HeroSplit({ headline, subheadline, primaryCTA, secondary
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/images/hero.jpg"
+          src="/images/Hero.png"
           alt="Data analytics background"
           className="w-full h-full object-cover opacity-30"
           onError={(e) => {
