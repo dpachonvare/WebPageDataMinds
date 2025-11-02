@@ -15,8 +15,23 @@ interface HeroSplitProps {
 
 export default function HeroSplit({ headline, subheadline, primaryCTA, secondaryCTA }: HeroSplitProps) {
   return (
-    <section id="hero" className="bg-gradient-to-br from-navy-900 via-navy-800 to-navy-900 text-white py-20 md:py-32">
-      <div className="section-container">
+    <section id="hero" className="relative bg-gradient-to-br from-navy-900 via-navy-800 to-navy-900 text-white py-20 md:py-32 overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0">
+        <img
+          src="/images/hero.jpg"
+          alt="Data analytics background"
+          className="w-full h-full object-cover opacity-30"
+          onError={(e) => {
+            // Fallback if image doesn't exist
+            e.currentTarget.style.display = 'none';
+          }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-navy-900/80 via-navy-800/80 to-navy-900/80"></div>
+      </div>
+
+      {/* Content */}
+      <div className="section-container relative z-10">
         <div className="max-w-4xl">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
             {headline}

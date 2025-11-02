@@ -160,6 +160,9 @@ export default function AboutPage() {
             Certifications & Expertise
           </h2>
           <div className="flex flex-wrap justify-center gap-6 text-lg text-gray-700">
+            <span className="bg-azure-100 border-2 border-azure-500 text-azure-900 px-6 py-3 rounded-lg shadow-sm font-semibold">
+              DP-600 Fabric Analytics Engineer Associate
+            </span>
             <span className="bg-white px-6 py-3 rounded-lg shadow-sm">Microsoft Fabric</span>
             <span className="bg-white px-6 py-3 rounded-lg shadow-sm">Power BI</span>
             <span className="bg-white px-6 py-3 rounded-lg shadow-sm">Azure ML</span>

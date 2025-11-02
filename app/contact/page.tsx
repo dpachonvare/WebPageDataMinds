@@ -226,13 +226,72 @@ export default function ContactPage() {
                   </p>
                 </div>
 
+                {/* Phone Contacts */}
+                <div className="card">
+                  <h3 className="text-lg font-semibold text-navy-800 mb-3">
+                    📞 Call us
+                  </h3>
+                  <div className="space-y-3">
+                    <div>
+                      <p className="text-sm font-semibold text-gray-700">Dan Burke</p>
+                      <a
+                        href="tel:0490452626"
+                        className="text-azure-500 hover:text-azure-600 font-semibold"
+                      >
+                        0490 452 626
+                      </a>
+                    </div>
+                    <div>
+                      <p className="text-sm font-semibold text-gray-700">Diego Pachon</p>
+                      <a
+                        href="tel:0492825611"
+                        className="text-azure-500 hover:text-azure-600 font-semibold"
+                      >
+                        0492 825 611
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                {/* iMessage */}
+                <div className="card">
+                  <h3 className="text-lg font-semibold text-navy-800 mb-3">
+                    💬 iMessage
+                  </h3>
+                  <p className="text-gray-600 mb-4 text-sm">
+                    Message us directly from your iPhone or Mac
+                  </p>
+                  <div className="flex gap-3">
+                    <a
+                      href="sms:0490452626"
+                      className="btn-secondary text-sm inline-flex items-center gap-2"
+                    >
+                      <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/>
+                      </svg>
+                      Dan
+                    </a>
+                    <a
+                      href="sms:0492825611"
+                      className="btn-secondary text-sm inline-flex items-center gap-2"
+                    >
+                      <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/>
+                      </svg>
+                      Diego
+                    </a>
+                  </div>
+                </div>
+
                 {/* Location */}
                 <div className="card">
                   <h3 className="text-lg font-semibold text-navy-800 mb-3">
                     📍 Location
                   </h3>
                   <p className="text-gray-600">
-                    Brisbane, Queensland, Australia
+                    43 Hercules St, Hamilton<br />
+                    Brisbane, Queensland<br />
+                    Australia
                   </p>
                 </div>
 

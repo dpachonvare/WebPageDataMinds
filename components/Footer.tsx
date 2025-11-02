@@ -11,11 +11,22 @@ export default function Footer() {
             <p className="text-sm mb-4">
               Microsoft Fabric & Power BI consulting for Australian businesses.
             </p>
-            <p className="text-sm">
-              <a href="mailto:hello@dataminds.au" className="hover:text-azure-400 transition-colors">
-                hello@dataminds.au
-              </a>
-            </p>
+            <div className="text-sm space-y-2">
+              <p>
+                <a href="mailto:hello@dataminds.au" className="hover:text-azure-400 transition-colors">
+                  hello@dataminds.au
+                </a>
+              </p>
+              <p>
+                <a href="tel:0490452626" className="hover:text-azure-400 transition-colors">
+                  0490 452 626
+                </a>
+              </p>
+              <p className="text-gray-400">
+                43 Hercules St, Hamilton<br />
+                Brisbane, QLD
+              </p>
+            </div>
           </div>
 
           {/* Services */}
