@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FloatingCTA from "@/components/FloatingCTA";
 
 export const metadata: Metadata = {
   title: "Data Minds | Microsoft Fabric & Power BI Consulting for Australian Businesses",
@@ -20,6 +21,7 @@ export default function RootLayout({
         <Navbar />
         <main>{children}</main>
         <Footer />
+        <FloatingCTA />
       </body>
     </html>
   );

@@ -1,4 +1,5 @@
 import HeroSplit from '@/components/HeroSplit';
+import ProblemSolutionSlider from '@/components/ProblemSolutionSlider';
 import LogoMarquee from '@/components/LogoMarquee';
 import CardGrid from '@/components/CardGrid';
 import ServiceTiles from '@/components/ServiceTiles';
@@ -7,6 +8,7 @@ import ProcessSteps from '@/components/ProcessSteps';
 import CaseMini from '@/components/CaseMini';
 import FAQAccordion from '@/components/FAQAccordion';
 import CTAFullWidth from '@/components/CTAFullWidth';
+import EngineeringStandard from '@/components/EngineeringStandard';
 
 export default function Home() {
   const valueProps = [
@@ -92,6 +94,7 @@ export default function Home() {
       description: 'Lakehouse baseline, 2 subject areas, 4 KPIs, refresh, access model.',
       price: 'from $35k',
       duration: '4–6 weeks',
+      bestFor: 'CTOs who need a modern data foundation in weeks, not months.',
       deliverables: [
         'Lakehouse baseline setup',
         '2 subject areas configured',
@@ -106,6 +109,7 @@ export default function Home() {
       description: 'P&L, Cashflow, AR ageing + governed refresh pipeline.',
       price: 'from $20k',
       duration: '3–4 weeks',
+      bestFor: 'CFOs tired of manual Excel consolidation.',
       deliverables: [
         'P&L dashboard',
         'Cashflow analysis',
@@ -120,6 +124,7 @@ export default function Home() {
       description: 'Chat over your model (LLMs), Q&A on metrics, governance & safety.',
       price: 'from $25k',
       duration: '3–4 weeks',
+      bestFor: 'Leaders who want natural language access to their data.',
       deliverables: [
         'LLM integration with your data',
         'Natural language Q&A',
@@ -221,6 +226,8 @@ export default function Home() {
         }}
       />
 
+      <ProblemSolutionSlider />
+
       <LogoMarquee />
 
       {/* Value Props */}
@@ -298,8 +305,11 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Engineering Standard */}
+      <EngineeringStandard />
+
       {/* Tech & Certs */}
-      <section id="tech" className="py-16 bg-white">
+      <section id="tech" className="py-16 bg-gray-50">
         <div className="section-container text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-navy-800 mb-6">
             Technology Stack

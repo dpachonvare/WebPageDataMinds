@@ -62,9 +62,7 @@ export default function AboutPage() {
                   with deep expertise in Microsoft Fabric, Power BI, Azure, and data architecture.
                 </p>
                 <p>
-                  <span className="font-semibold">Hybrid delivery model:</span> Onshore strategy and
-                  stakeholder engagement combined with a skilled nearshore delivery team in LATAM for
-                  cost-effective, high-quality implementation.
+                  <span className="font-semibold">Australian Strategy, Global Efficiency:</span> Our Brisbane-based principals handle the strategy and stakeholder management, ensuring nothing gets lost in translation. Our specialized Fabric delivery center handles the heavy engineering. Result: Enterprise-grade architecture at mid-market speed and cost.
                 </p>
                 <p>
                   <span className="font-semibold">Industry expertise:</span> Utilities, asset management,

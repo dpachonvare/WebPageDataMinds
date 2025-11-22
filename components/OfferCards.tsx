@@ -5,6 +5,7 @@ interface Offer {
   description: string;
   price: string;
   duration: string;
+  bestFor?: string;
   deliverables: string[];
   featured?: boolean;
 }
@@ -33,6 +34,13 @@ export default function OfferCards({ offers }: OfferCardsProps) {
           <h3 className="text-2xl font-bold text-navy-800 mb-2">
             {offer.title}
           </h3>
+          {offer.bestFor && (
+            <div className="mb-3 p-3 bg-azure-50 border-l-4 border-azure-500 rounded">
+              <p className="text-sm font-semibold text-azure-900">
+                <span className="text-azure-600">Best For:</span> {offer.bestFor}
+              </p>
+            </div>
+          )}
           <p className="text-gray-600 mb-4">{offer.description}</p>
           <div className="mb-4">
             <span className="text-3xl font-bold text-navy-800">{offer.price}</span>
