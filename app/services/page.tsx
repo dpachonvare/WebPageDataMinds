@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import CTAFullWidth from '@/components/CTAFullWidth';
+import TechnicalDeepDive from '@/components/TechnicalDeepDive';
 
 export const metadata: Metadata = {
   title: 'Services | Data Minds - Microsoft Fabric & Power BI Consulting',
@@ -167,6 +168,9 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
+
+      {/* Technical Deep Dive */}
+      <TechnicalDeepDive />
 
       {/* Trust Line */}
       <section className="py-8 bg-gray-50">

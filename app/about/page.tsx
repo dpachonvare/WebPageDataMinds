@@ -59,7 +59,7 @@ export default function AboutPage() {
               <div className="space-y-4 text-gray-700">
                 <p>
                   <span className="font-semibold">Brisbane-based leadership:</span> 2 senior consultants
-                  with deep expertise in Microsoft Fabric, Power BI, Azure, and data architecture.
+                  with deep expertise in Microsoft Fabric, Power BI, Azure, and data architecture, supported by a knowledgeable team based in Latin America with DP-600 and DP-700 certifications, available 24/7.
                 </p>
                 <p>
                   <span className="font-semibold">Australian Strategy, Global Efficiency:</span> Our Brisbane-based principals handle the strategy and stakeholder management, ensuring nothing gets lost in translation. Our specialized Fabric delivery center handles the heavy engineering. Result: Enterprise-grade architecture at mid-market speed and cost.
@@ -160,6 +160,9 @@ export default function AboutPage() {
           <div className="flex flex-wrap justify-center gap-6 text-lg text-gray-700">
             <span className="bg-azure-100 border-2 border-azure-500 text-azure-900 px-6 py-3 rounded-lg shadow-sm font-semibold">
               DP-600 Fabric Analytics Engineer Associate
+            </span>
+            <span className="bg-azure-100 border-2 border-azure-500 text-azure-900 px-6 py-3 rounded-lg shadow-sm font-semibold">
+              DP-700 Fabric Data Engineer Associate
             </span>
             <span className="bg-white px-6 py-3 rounded-lg shadow-sm">Microsoft Fabric</span>
             <span className="bg-white px-6 py-3 rounded-lg shadow-sm">Power BI</span>

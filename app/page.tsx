@@ -238,6 +238,18 @@ export default function Home() {
           </h2>
           <CardGrid cards={valueProps} columns={4} />
 
+          {/* Competitive Pricing */}
+          <div className="mt-12 max-w-3xl mx-auto text-center">
+            <div className="card bg-azure-50 border-2 border-azure-200">
+              <h3 className="text-2xl font-bold text-navy-800 mb-4">
+                Best Value in Australia
+              </h3>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Most competitive prices in Australia, delivering the best value and high-quality deliverables. Enterprise-grade architecture at mid-market speed and cost.
+              </p>
+            </div>
+          </div>
+
           {/* Video Showcase */}
           <div className="mt-16 max-w-5xl mx-auto">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-navy-800">

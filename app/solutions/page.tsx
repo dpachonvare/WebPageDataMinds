@@ -34,7 +34,7 @@ export default function SolutionsPage() {
       title: 'Asset Management & Maintenance',
       icon: '🏭',
       pain: 'Reactive maintenance driven by manual tracking, poor visibility into asset performance, and high mean time to repair (MTTR).',
-      solution: 'IW29-style work order flows with MTBF/MTTR tracking, backlog prioritization, and SLA monitoring in Power BI + Azure ML for predictive maintenance.',
+      solution: 'Work order management with MTBF/MTTR tracking, backlog prioritization, and SLA monitoring in Power BI + Azure ML for predictive maintenance.',
       metrics: [
         'MTBF & MTTR',
         'Planned vs. reactive maintenance ratio',
