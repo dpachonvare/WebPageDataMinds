@@ -237,6 +237,28 @@ export default function Home() {
             Why Data Minds
           </h2>
           <CardGrid cards={valueProps} columns={4} />
+
+          {/* Video Showcase */}
+          <div className="mt-16 max-w-5xl mx-auto">
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-navy-800">
+              <video
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="w-full h-auto"
+                poster="/images/video-poster.jpg"
+              >
+                <source src="/videos/Futuristic_Data_Pipeline_Explainer_Video.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-navy-900/90 to-transparent p-6">
+                <p className="text-white text-sm font-semibold text-center">
+                  Modern Data Architecture in Action
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -289,6 +311,57 @@ export default function Home() {
             We co-create the stories first, then the models. No zombie dashboards.
           </p>
           <ProcessSteps steps={processSteps} />
+
+          {/* Process Video */}
+          <div className="mt-16 max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+              {/* Video */}
+              <div className="order-2 lg:order-1">
+                <div className="relative rounded-xl overflow-hidden shadow-xl border-2 border-azure-200">
+                  <video
+                    controls
+                    loop
+                    muted
+                    playsInline
+                    className="w-full h-auto bg-navy-900"
+                  >
+                    <source src="/videos/Fabric_Data_Flow_and_SQL_Query.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+
+              {/* Description */}
+              <div className="order-1 lg:order-2 space-y-4">
+                <h3 className="text-2xl font-bold text-navy-800">
+                  See Fabric in Action
+                </h3>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  Watch how data flows through our Fabric architecture—from raw ingestion to SQL-ready analytics. This is the engine that powers executive insights.
+                </p>
+                <ul className="space-y-3">
+                  <li className="flex items-start">
+                    <svg className="w-6 h-6 text-azure-500 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span className="text-gray-700">Real-time data orchestration across Bronze, Silver, and Gold layers</span>
+                  </li>
+                  <li className="flex items-start">
+                    <svg className="w-6 h-6 text-azure-500 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span className="text-gray-700">SQL query optimization for sub-second executive dashboards</span>
+                  </li>
+                  <li className="flex items-start">
+                    <svg className="w-6 h-6 text-azure-500 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span className="text-gray-700">Automated refresh pipelines with built-in data quality checks</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
