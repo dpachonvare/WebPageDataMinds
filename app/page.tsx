@@ -234,7 +234,7 @@ export default function Home() {
       <section id="value-props" className="py-16 bg-white">
         <div className="section-container">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-800 mb-12">
-            Why Data Minds
+            Why Data Minds Consulting
           </h2>
           <CardGrid cards={valueProps} columns={4} />
 

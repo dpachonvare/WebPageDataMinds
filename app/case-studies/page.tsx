@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import CTAFullWidth from '@/components/CTAFullWidth';
 
 export const metadata: Metadata = {
-  title: 'Case Studies | Data Minds - Real Results',
+  title: 'Case Studies | Data Minds Consulting - Real Results',
   description: 'See how we\'ve helped Australian businesses transform their analytics with Microsoft Fabric & Power BI.',
 };
 

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import CTAFullWidth from '@/components/CTAFullWidth';
 
 export const metadata: Metadata = {
-  title: 'Solutions | Data Minds - Industry-Specific Analytics',
+  title: 'Solutions | Data Minds Consulting - Industry-Specific Analytics',
   description: 'Tailored Microsoft Fabric & Power BI solutions for Utilities, Asset Management, Retail, D365, and SAP.',
 };
 

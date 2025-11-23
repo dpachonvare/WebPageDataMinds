@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Terms of Service | Data Minds',
-  description: 'Terms of service for Data Minds consulting services.',
+  title: 'Terms of Service | Data Minds Consulting',
+  description: 'Terms of service for Data Minds Consulting services.',
 };
 
 export default function TermsPage() {
@@ -27,20 +27,20 @@ export default function TermsPage() {
 
             <h2 className="text-2xl font-bold text-navy-800 mt-8 mb-4">1. Agreement to Terms</h2>
             <p className="text-gray-700">
-              By accessing or using the Data Minds website or services, you agree to be bound by these
+              By accessing or using the Data Minds Consulting website or services, you agree to be bound by these
               Terms of Service and all applicable laws and regulations.
             </p>
 
             <h2 className="text-2xl font-bold text-navy-800 mt-8 mb-4">2. Services</h2>
             <p className="text-gray-700">
-              Data Minds provides consulting, implementation, and managed services for Microsoft Fabric,
+              Data Minds Consulting provides consulting, implementation, and managed services for Microsoft Fabric,
               Power BI, and Azure analytics solutions. Specific services are defined in individual
               Statements of Work (SOW) or service agreements.
             </p>
 
             <h2 className="text-2xl font-bold text-navy-800 mt-8 mb-4">3. Intellectual Property</h2>
             <p className="text-gray-700">
-              The content, design, and materials on this website are owned by Data Minds and protected
+              The content, design, and materials on this website are owned by Data Minds Consulting and protected
               by intellectual property laws. You may not reproduce, distribute, or create derivative
               works without our written permission.
             </p>
@@ -50,7 +50,7 @@ export default function TermsPage() {
             <ul className="list-disc pl-6 text-gray-700 space-y-2">
               <li>Client retains ownership of their data</li>
               <li>Deliverables are owned by client upon full payment</li>
-              <li>Data Minds retains IP for reusable frameworks and methodologies</li>
+              <li>Data Minds Consulting retains IP for reusable frameworks and methodologies</li>
             </ul>
 
             <h2 className="text-2xl font-bold text-navy-800 mt-8 mb-4">4. Payment Terms</h2>
@@ -82,7 +82,7 @@ export default function TermsPage() {
 
             <h2 className="text-2xl font-bold text-navy-800 mt-8 mb-4">7. Limitation of Liability</h2>
             <p className="text-gray-700">
-              To the maximum extent permitted by law, Data Minds shall not be liable for indirect,
+              To the maximum extent permitted by law, Data Minds Consulting shall not be liable for indirect,
               incidental, or consequential damages arising from use of our services. Total liability
               is limited to fees paid for the specific service.
             </p>

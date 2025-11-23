@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="col-span-1">
-            <h3 className="text-white text-xl font-bold mb-4">Data Minds</h3>
+            <h3 className="text-white text-xl font-bold mb-4">Data Minds Consulting</h3>
             <p className="text-sm mb-4">
               Microsoft Fabric & Power BI consulting for Australian businesses.
             </p>
@@ -123,7 +123,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
-          <p>&copy; {new Date().getFullYear()} Data Minds. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Data Minds Consulting. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link href="/privacy" className="hover:text-azure-400 transition-colors">
               Privacy Policy

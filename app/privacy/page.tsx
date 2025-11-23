@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | Data Minds',
-  description: 'Privacy policy for Data Minds consulting services.',
+  title: 'Privacy Policy | Data Minds Consulting',
+  description: 'Privacy policy for Data Minds Consulting services.',
 };
 
 export default function PrivacyPage() {
@@ -27,7 +27,7 @@ export default function PrivacyPage() {
 
             <h2 className="text-2xl font-bold text-navy-800 mt-8 mb-4">1. Introduction</h2>
             <p className="text-gray-700">
-              Data Minds ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy
+              Data Minds Consulting ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy
               explains how we collect, use, disclose, and safeguard your information when you visit our website
               or use our services.
             </p>

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import CTAFullWidth from '@/components/CTAFullWidth';
 
 export const metadata: Metadata = {
-  title: 'About Us | Data Minds - Microsoft Fabric & Power BI Experts',
+  title: 'About Us | Data Minds Consulting - Microsoft Fabric & Power BI Experts',
   description: 'Brisbane-based team with hybrid delivery model. We design stories first, then models.',
 };
 
@@ -13,7 +13,7 @@ export default function AboutPage() {
       <section className="bg-gradient-to-br from-navy-900 via-navy-800 to-navy-900 text-white py-20">
         <div className="section-container">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            About Data Minds
+            About Data Minds Consulting
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 max-w-3xl">
             We design stories first, then models.
@@ -26,14 +26,14 @@ export default function AboutPage() {
         <div className="section-container">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-navy-800 mb-8 text-center">
-              Why Data Minds?
+              Why Data Minds Consulting?
             </h2>
             <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
               <p>
                 Most BI projects start with technology. We start with the story you need to tell.
               </p>
               <p>
-                Data Minds is a boutique consulting firm specializing in Microsoft Fabric and Power BI
+                Data Minds Consulting is a boutique consulting firm specializing in Microsoft Fabric and Power BI
                 for Australian businesses. We don't just build dashboards — we create analytics solutions
                 that executives actually use to make better decisions.
               </p>

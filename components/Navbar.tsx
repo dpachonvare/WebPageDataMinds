@@ -12,7 +12,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <span className="text-2xl font-bold text-navy-800">Data Minds</span>
+            <span className="text-2xl font-bold text-navy-800">Data Minds Consulting</span>
           </Link>
 
           {/* Desktop Navigation */}

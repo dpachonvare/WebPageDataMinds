@@ -3,7 +3,7 @@ import CTAFullWidth from '@/components/CTAFullWidth';
 import TechnicalDeepDive from '@/components/TechnicalDeepDive';
 
 export const metadata: Metadata = {
-  title: 'Services | Data Minds - Microsoft Fabric & Power BI Consulting',
+  title: 'Services | Data Minds Consulting - Microsoft Fabric & Power BI Consulting',
   description: 'From audit to AI agents — consulting, implementation, managed services, training, and migrations on Microsoft Fabric & Power BI.',
 };
 
