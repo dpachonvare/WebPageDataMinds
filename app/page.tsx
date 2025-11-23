@@ -222,7 +222,7 @@ export default function Home() {
         }}
         secondaryCTA={{
           text: 'Get the Fabric QuickStart pack',
-          href: '/resources',
+          href: '/downloads/Fabric-QuickStart-Guide.pdf',
         }}
       />
 
@@ -425,7 +425,7 @@ export default function Home() {
         }}
         secondaryCTA={{
           text: 'Download QuickStart Pack',
-          href: '/resources',
+          href: '/downloads/Fabric-QuickStart-Guide.pdf',
         }}
       />
     </>

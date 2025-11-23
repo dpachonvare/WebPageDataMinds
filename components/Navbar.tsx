@@ -29,9 +29,9 @@ export default function Navbar() {
             <Link href="/case-studies" className="text-gray-700 hover:text-navy-700 transition-colors">
               Case Studies
             </Link>
-            <Link href="/resources" className="text-gray-700 hover:text-navy-700 transition-colors">
+            {/* <Link href="/resources" className="text-gray-700 hover:text-navy-700 transition-colors">
               Resources
-            </Link>
+            </Link> */}
             <Link href="/about" className="text-gray-700 hover:text-navy-700 transition-colors">
               About
             </Link>
@@ -79,9 +79,9 @@ export default function Navbar() {
             <Link href="/case-studies" className="block text-gray-700 hover:text-navy-700 transition-colors">
               Case Studies
             </Link>
-            <Link href="/resources" className="block text-gray-700 hover:text-navy-700 transition-colors">
+            {/* <Link href="/resources" className="block text-gray-700 hover:text-navy-700 transition-colors">
               Resources
-            </Link>
+            </Link> */}
             <Link href="/about" className="block text-gray-700 hover:text-navy-700 transition-colors">
               About
             </Link>

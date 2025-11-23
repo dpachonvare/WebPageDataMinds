@@ -107,11 +107,11 @@ export default function Footer() {
                   Case Studies
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/resources" className="hover:text-azure-400 transition-colors">
                   Resources
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/contact" className="hover:text-azure-400 transition-colors">
                   Contact
